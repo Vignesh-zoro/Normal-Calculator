@@ -1,0 +1,46 @@
+/* --Clear the default padding and margin --*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* --Style the body container --*/
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* --Style the main container --*/
+.main-container {
+    background-color: black;
+    width: 250px;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+
+h1 {
+    color: white;
+}
+
+/* --Style the inout box --*/
+#display {
+    width: 100%;
+    padding: 8px;
+    height: 60px;
+    border-radius: 9px;
+}
+
+/* --Style the buttons --*/
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 0;
+    margin: 10px 5px;
+    font-size: 17px;
+}
